@@ -6,8 +6,7 @@
 
 
 
-from keras import backend as k  
-
+from keras import backend as k /r
 from tensorflow.compat.v1 import ConfigProto  
 
 from tensorflow.compat.v1 import InteractiveSession  
