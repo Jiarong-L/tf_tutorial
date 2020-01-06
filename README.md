@@ -5,7 +5,7 @@ GPU:RTX1650
 CUDA:10.0.130  
 cuDNN:7.6.0  
 
-### in this order add the last 2 lines:  
+### in this order add the last 2 lines to PATH:  
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin  
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp  
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\extras\CUPTI\lib64  
