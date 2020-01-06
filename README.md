@@ -25,6 +25,6 @@ config = ConfigProto()
 config.gpu_options.allow_growth = True  
 session = InteractiveSession(config=config)  
 k.set_session(session)
- ## or
+### or
 gpu = tf.config.experimental.list_physical_devices('GPU')  
 tf.config.experimental.set_memory_growth(gpu[0], True)
