@@ -1,7 +1,10 @@
 # tf_tutorial
 
 
-
+GPU:RTX1650  
+CUDA:10.0.130  
+cuDNN:7.6.0  
+tensorflow2.0  
 
 
 
