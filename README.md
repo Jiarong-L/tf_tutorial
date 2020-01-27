@@ -28,3 +28,9 @@ k.set_session(session)
 ### or
 gpu = tf.config.experimental.list_physical_devices('GPU')  
 tf.config.experimental.set_memory_growth(gpu[0], True)
+
+### or
+gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
+tf.config.experimental.set_virtual_device_configuration(
+    gpus[0],
+    [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=3999)])
